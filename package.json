@@ -1,14 +1,14 @@
 {
   "name": "advertisement-moderation-fullstack",
   "version": "1.0.0",
+  "author": "ttseva",
   "scripts": {
     "start": "concurrently \"npm run start:backend\" \"npm run start:frontend\"",
-    "start:backend": "npm --prefix backend install && npm --prefix backend run start",
-    "start:frontend": "npm --prefix frontend install && npm --prefix frontend run dev",
-    "dev": "concurrently \"npm --prefix backend run dev\" \"npm --prefix frontend run dev\"",
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "dev:backend": "npm --prefix backend install && npm --prefix backend run dev",
+    "dev:frontend": "npm --prefix frontend install && npm --prefix frontend run dev",
     "build": "npm --prefix frontend run build"
   },
-  "author": "ttseva",
   "devDependencies": {
     "concurrently": "^8.0.0"
   }

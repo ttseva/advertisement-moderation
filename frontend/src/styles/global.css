@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #f1e6c9;
+    min-height: 100vh;
+    padding: 60px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+
+#root {
+    width: 100%;
+}

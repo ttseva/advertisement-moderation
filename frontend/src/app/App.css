@@ -1,0 +1,16 @@
+.app-shell {
+    min-height: calc(100vh - (60px * 2));
+    width: min(1200px, 100%);
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 10px 10px 10px rgba(15, 21, 41, 0.15);
+    overflow: hidden;
+}
+
+
+.app-shell__content {
+    flex: 1;
+}
